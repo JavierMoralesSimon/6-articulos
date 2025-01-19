@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6 artículos</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+        }
+
+        body{
+            background-color: aquamarine;
+        }
+
+        h1{
+            text-align: center;
+            font-size: 40px;
+            color: darkcyan;
+            padding-top: 25px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            word-spacing: 10px;
+        }
+
+        #caja{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .minicaja{
+            background-color: cornflowerblue;
+            border-radius: 20px;
+            text-align: center;
+            width: 30%;
+            margin: 30px;
+            padding: 10px;
+            padding-top: 13px;
+            align-items: center;
+        }
+
+        .minicaja img{
+            opacity: 0.5;
+            transition: 0.5s;
+            width: 30%;
+        }
+
+        .minicaja img:hover{
+            opacity: 1;
+            cursor: pointer;
+            border-radius: 30px;
+            width: 35%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Productos tecnológicos</h1>
+
+    <div id="caja">
+        <div class="minicaja">
+            <a href="https://www.pccomponentes.com/movil-apple-iphone-16-128gb-negro?_gl=1*1buclid*_up*MQ..*_gs*MQ..&gclid=Cj0KCQiA4rK8BhD7ARIsAFe5LXI1F2kC3R9WqLBbJaZOfBuvIg8xYyZOzZzi3dRDrW2MHqEm-4wyXwcaAgvmEALw_wcB" target="_blank"><img src="imagenes/iphone.png" alt="móvil iphone"></a>
+        </div>
+
+        <div class="minicaja">
+            <a href="https://www.pccomponentes.com/xiaomi-redmi-note-13-8-256gb-negro-libre?_gl=1*1buclid*_up*MQ..*_gs*MQ..&gclid=Cj0KCQiA4rK8BhD7ARIsAFe5LXI1F2kC3R9WqLBbJaZOfBuvIg8xYyZOzZzi3dRDrW2MHqEm-4wyXwcaAgvmEALw_wcB" target="_blank"><img src="imagenes/redmi.png" alt="móvil redmi note"></a>
+        </div>
+            
+        <div class="minicaja">
+            <a href="https://www.pccomponentes.com/movil-samsung-galaxy-s24-ultra-12-256gb-amarillo-titanio-libre?_gl=1*1ukrga3*_up*MQ..*_gs*MQ..&gclid=Cj0KCQiA4rK8BhD7ARIsAFe5LXI1F2kC3R9WqLBbJaZOfBuvIg8xYyZOzZzi3dRDrW2MHqEm-4wyXwcaAgvmEALw_wcB" target="_blank"><img src="imagenes/samsung.png" alt="móvil samsung"></a>
+        </div>
+
+        <div class="minicaja">
+            <a href="https://www.pccomponentes.com/portatil-acer-aspire-3-15-a315-44p-amd-ryzen-7-5700u-16gb-512-gb-ssd-156?_gl=1*1ukrga3*_up*MQ..*_gs*MQ..&gclid=Cj0KCQiA4rK8BhD7ARIsAFe5LXI1F2kC3R9WqLBbJaZOfBuvIg8xYyZOzZzi3dRDrW2MHqEm-4wyXwcaAgvmEALw_wcB" target="_blank"><img src="imagenes/acer.png" alt="portátil acer"></a>
+        </div>
+
+        <div class="minicaja">
+            <a href="https://www.pccomponentes.com/hp-15-fd0080ns-intel-core-i5-1334u-16gb-512gb-ssd-156?_gl=1*1ukrga3*_up*MQ..*_gs*MQ..&gclid=Cj0KCQiA4rK8BhD7ARIsAFe5LXI1F2kC3R9WqLBbJaZOfBuvIg8xYyZOzZzi3dRDrW2MHqEm-4wyXwcaAgvmEALw_wcB" target="_blank"><img src="imagenes/hp.png" alt="portátil hp"></a>
+        </div>
+
+        <div class="minicaja">
+            <a href="https://www.pccomponentes.com/portatil-lenovo-loq-15irh8-intel-core-i5-12450h-16gb-512gb-ssd-rtx4050-156?_gl=1*1ukrga3*_up*MQ..*_gs*MQ..&gclid=Cj0KCQiA4rK8BhD7ARIsAFe5LXI1F2kC3R9WqLBbJaZOfBuvIg8xYyZOzZzi3dRDrW2MHqEm-4wyXwcaAgvmEALw_wcB" target="_blank"><img src="imagenes/lenovo.png" alt="portátil lenovo"></a>
+        </div>    
+    </div>
+</body>
+</html>
